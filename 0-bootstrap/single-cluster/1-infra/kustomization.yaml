@@ -5,6 +5,7 @@ resources:
 - argocd/serviceaccounts-b2bi-prod.yaml
 - argocd/sfg-b2bi-clusterwide.yaml
 - argocd/daemonset-sync-global-pullsecret.yaml
+- argocd/instances/ibm-sfg-b2bi-prod.yaml
 patches:
 - target:
     group: argoproj.io
