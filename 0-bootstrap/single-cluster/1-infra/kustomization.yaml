@@ -9,6 +9,7 @@ resources:
 - argocd/serviceaccounts-connect-direct.yaml
 - argocd/sterling-cd-clusterwide.yaml
 - argocd/namespace-tools.yaml
+- argocd/namespace-openshift-storage.yaml
 patches:
 - target:
     group: argoproj.io
