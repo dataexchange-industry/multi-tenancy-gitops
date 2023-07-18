@@ -8,6 +8,7 @@ resources:
 - argocd/namespace-connect-direct.yaml
 - argocd/serviceaccounts-connect-direct.yaml
 - argocd/sterling-cd-clusterwide.yaml
+- argocd/namespace-tools.yaml
 patches:
 - target:
     group: argoproj.io
