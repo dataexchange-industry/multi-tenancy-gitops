@@ -7,7 +7,7 @@ resources:
 - argocd/daemonset-sync-global-pullsecret.yaml
 - argocd/namespace-connect-direct.yaml
 - argocd/serviceaccounts-connect-direct.yaml
-- argocd/sterling-cd-clusterwide.yaml
+# - argocd/sterling-cd-clusterwide.yaml
 - argocd/namespace-tools.yaml
 - argocd/namespace-openshift-storage.yaml
 patches:
