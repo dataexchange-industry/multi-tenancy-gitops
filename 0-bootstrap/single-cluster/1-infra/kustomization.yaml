@@ -5,7 +5,6 @@ resources:
 - argocd/serviceaccounts-b2bi-prod.yaml
 - argocd/sfg-b2bi-clusterwide.yaml
 - argocd/daemonset-sync-global-pullsecret.yaml
-- argocd/instances/ibm-sfg-b2bi-prod.yaml
 - argocd/namespace-connect-direct.yaml
 - argocd/serviceaccounts-connect-direct.yaml
 - argocd/sterling-cd-clusterwide.yaml
